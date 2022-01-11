@@ -1,7 +1,9 @@
-<h1 align="center">BetterShot</h1>
+<!-- <h1 align="center">BetterShot</h1> -->
 <!-- <p align="center">
-    <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+    <img src="https://media.discordapp.net/attachments/930291717742153778/930291865524248647/Linkedin_cover.jpg?width=2303&height=699">
 </p> -->
+
+[![name](https://media.discordapp.net/attachments/930291717742153778/930291865524248647/Linkedin_cover.jpg?width=2303&height=699)](https://bettershot.io/)
 
 ## Introduction
 ### Vision
