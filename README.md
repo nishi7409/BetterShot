@@ -7,7 +7,7 @@
 
 ## Introduction
 ### Vision
-There are a lot of tools that allow users to seamlessly screenshot/record their screens and share that content with their peers such as Lightshot, Gyazo, and ShareX; however, these tools can sometimes be complicated to setup with a custom domain (ShareX), the software simply can't record your screen (Lightshot), or the snipping abilities are limited (Gyazo). Of course, there'll never be one single application that checks off all of the boxes, but because this project is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">FOSS</a>, users themselves can add their desired features at any point in time-- and even bring it up to the community so it's pushed to everyone's devices.
+There are a lot of tools that allow users to seamlessly screenshot/record their screens and share that content with their peers such as Lightshot, Gyazo, and ShareX; however, these tools can sometimes be complicated to set up with a custom domain (ShareX), the software simply can't record your screen (Lightshot), or the snipping abilities are limited (Gyazo). Of course, there'll never be one single application that checks off all of the boxes, but because this project is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">FOSS</a>, users themselves can add their desired features at any point in time-- and even bring it up to the community so it's pushed to everyone's devices. This project aims to be an open-source version of ShareX, Lightshot, Gyazo, Streamable, and NVIDIA's GeForce Experience screen capturing tool.
 
 ### Goal
 The goal of this application is to provide users with an alternative to existing solutions while aiding in content ownership and flexbility.
