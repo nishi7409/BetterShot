@@ -19,10 +19,10 @@
             <template #end>
                 <b-navbar-item tag="div">
                     <div class="buttons">
-                        <a class="button is-danger" href="/register">
+                        <a class="button is-danger" href="/auth/register">
                             <strong>Register</strong>
                         </a>
-                        <a class="button is-light" href="/login">
+                        <a class="button is-light" href="/auth/login">
                             Log in
                         </a>
                     </div>
