@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="site">
         <navbarHeader/>
         <Nuxt />
         <bottomFooter/>
@@ -24,3 +24,10 @@ export default {
     }
 }
 </script>
+
+<style>
+    .site {
+        
+    }
+
+</style>
