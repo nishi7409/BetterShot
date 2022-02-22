@@ -1,9 +1,8 @@
 <template>
     <div class="site">
         <navbarHeader/>
-        <Nuxt />
+        <Nuxt class="mainContent" />
         <bottomFooter/>
-        
     </div>
 </template>
 
@@ -27,7 +26,13 @@ export default {
 
 <style>
     .site {
-        
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    .mainContent {
+        flex: 1;
     }
 
 </style>
