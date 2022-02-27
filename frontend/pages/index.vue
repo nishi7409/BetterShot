@@ -1,17 +1,20 @@
 <template>
   <div id="homePage" class="container is-fluid">
     <section id="part1" class="section is-large">
-      <video id="background-video" autoplay loop muted>
-        <source src="../assets/Home.mp4" type="video/mp4">
+      <video id="topSectionVideo" autoplay loop muted>
+        <source src="../assets/Home.mp4" type="video/mp4" />
       </video>
       <div id="textAboveScreen" class="hero-body">
         <div class="textField">
-          <p class="title has-text-weight-bold">BetterShot</p>
-          <p class="subtitle is-size-5 has-text-left-desktop">An open-source version of Streamable, Gyazo, Lightshot, and NVIDIA's GeForce Experience screen capturing tool</p>
+          <p class="title has-text-weight-bold has-text-white">BetterShot</p>
+          <p class="subtitle is-size-5 has-text-left-desktop has-text-white">
+            An open-source version of Streamable, Gyazo, Lightshot, and NVIDIA's
+            GeForce Experience screen capturing tool
+          </p>
         </div>
       </div>
     </section>
-    <section id="part2" class="section is-large">
+    <section class="section is-medium">
       <nav class="level">
         <div class="level-item has-text-centered">
           <div>
@@ -38,6 +41,8 @@
           </div>
         </div>
       </nav>
+    </section>
+    <section id="part2" class="section is-small">
       <div class="columns is-desktop">
         <div class="tile">
           <div class="tile is-4 is-vertical is-parent">
@@ -167,21 +172,21 @@ export default {
   position: relative;
 }
 
-#background-video {
-  width: 100%;
-  height: 50%;
-  object-fit: cover;
-  position: fixed;
+#topSectionVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
 }
 #textAboveScreen {
-    color: white;
-    position:relative;
-    top:0;
-    left:0;
-    z-index: 0;
+  color: red;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 </style>
