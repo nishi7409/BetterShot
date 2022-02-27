@@ -1,9 +1,6 @@
 <template>
   <div id="homePage" class="container is-fluid">
     <section id="part1" class="section is-large">
-      <video id="topSectionVideo" autoplay loop muted>
-        <source src="../assets/Home.mp4" type="video/mp4" />
-      </video>
       <div id="textAboveScreen" class="hero-body">
         <div class="textField">
           <p class="title has-text-weight-bold has-text-white">BetterShot</p>
