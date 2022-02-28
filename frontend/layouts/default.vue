@@ -27,7 +27,7 @@ export default {
 <style>
     .site {
         display: flex;
-        min-height: 100%;
+        height: 100vh;
         flex-direction: column;
     }
 

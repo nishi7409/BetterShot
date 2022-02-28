@@ -2,6 +2,7 @@
   <div id="homePage" class="container is-fluid">
     <section id="part1" class="section is-large">
       <div id="textAboveScreen" class="hero-body">
+        <div id="backgroundImage"></div>
         <div class="textField">
           <p class="title has-text-weight-bold has-text-white">BetterShot</p>
           <p class="subtitle is-size-5 has-text-left-desktop has-text-white">
@@ -166,24 +167,12 @@ export default {
   background-color: #ecf0f5;
 }
 #part1 {
-  position: relative;
+  background-image: url("https://wallpaper.dog/large/20459082.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#topSectionVideo {
-  width: 100vw;
-  height: 100vh;
-  object-fit: fill;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-#textAboveScreen {
-  color: red;
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
 </style>
