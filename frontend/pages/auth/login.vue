@@ -1,10 +1,10 @@
 <template>
-<div id="login" class="mt">
+<div id="login">
 
-            <div class="columns is-mobile is-centered" margin-top>
+            <div id="login-form" class="columns is-mobile is-centered" margin-top>
                 <div class="column is-half">
                     <div class="container">
-                    <form class="box">
+                    <form class="box has-background-grey-light">
                         <h1 class="title"> Login </h1>
                         <div class="field">
                             <label class="label">Email</label>
@@ -27,3 +27,17 @@
             </div>
 </div>
 </template>
+
+<style>
+#login{
+    background-color: blue;
+    height: 100%;
+}
+
+#login-form{
+    position: relative;
+    top: 100px;
+}
+
+
+</style>
