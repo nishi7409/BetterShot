@@ -5,5 +5,4 @@ server/endpoints/migrations
 server/endpoints/__pycache__
 server/server/__pycache__
 
-server/.env
 .env
