@@ -1,6 +1,6 @@
-# frontend
+# BetterShot
 
-## Build Setup
+## An open-source version of Streamable, Gyazo, Lightshot, and NVIDIA's GeForce Experience screen capturing tool
 
 ```bash
 # install dependencies
