@@ -30,13 +30,13 @@
 
 <style>
 #login{
-    background-color: blue;
-    height: 100%;
+    background-color: rgb(10,196,131);
+    height: 100vh;
 }
 
 #login-form{
     position: relative;
-    top: 100px;
+    top: 20vh;
 }
 
 
