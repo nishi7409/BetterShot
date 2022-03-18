@@ -32,7 +32,7 @@
                             </div>
                         </div>
 
-                        <button class="button is-primary" @click="printToConsole()">Sign Up</button>
+                        <button class="button is-primary" @click="register()">Sign Up</button>
                     </form>
                     </div>
                 </div>
@@ -41,6 +41,10 @@
 </template>
 
 <script>
+import store from '../../store/index'
+import * as type from '../../store/mutationTypes/types'
+import { mapState } from 'vuex'
+
 export default {
    name: 'Login',
    data: function() {
@@ -52,10 +56,15 @@ export default {
     //   login() {
     //      store.dispatch(type.login, {"username": this.username, "password": this.password})
     //   }
-        printToConsole() {
-            console.log("Info: "+this.firstName+"-"+this.lastName+"-"+this.email+"-"+this.password);
-        }
+    register() {
+        store.dispatch(type.register, {"firstName": this.firstName, "lastName": this.lastName, "email": this.email, "password": this.password})
+    }
    },
+   computed: {
+      ...mapState({
+         sessionKey: 'token',
+      })
+   }
 };
 </script>
 
