@@ -1,5 +1,17 @@
-// import Vue from "vue";
-// import Vuex from 'vuex';
+import Vuex from 'vuex';
+
+export const state = () => ({
+    login_status: false,
+})
+
+
+export const actions = {
+    authLogin: () => {
+
+    }
+}
+
+
 // import axios from 'axios';
 
 // Vue.use(Vuex)
