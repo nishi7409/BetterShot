@@ -4,3 +4,5 @@ venv
 server/endpoints/migrations
 server/endpoints/__pycache__
 server/server/__pycache__
+
+.env
