@@ -17,7 +17,11 @@
                 </b-navbar-item>
             </template>
             <template #end>
-                <b-navbar-item tag="div">
+                <div v-if="$auth.loggedIn">
+                    
+                </div>
+                <div v-else>
+                    <b-navbar-item tag="div">
                     <div class="buttons">
                         <a class="button is-danger" href="/auth/register">
                             <strong>Register</strong>
@@ -26,7 +30,8 @@
                             Log in
                         </a>
                     </div>
-                </b-navbar-item>
+                    </b-navbar-item>
+                </div>
             </template>
         </b-navbar>
 </template>
@@ -35,7 +40,7 @@
 export default {
     data () {
         return {
-
+            
         }
     }
 }
