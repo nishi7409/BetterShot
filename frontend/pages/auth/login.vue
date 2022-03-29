@@ -12,7 +12,8 @@
                   class="input"
                   type="email"
                   placeholder="john@doe.com"
-                  v-model="email"
+                  v-model="userData.email"
+                  required
                 />
               </div>
             </div>
@@ -23,11 +24,12 @@
                   class="input"
                   type="password"
                   placeholder="********"
-                  v-model="password"
+                  v-model="userData.password"
+                  required
                 />
               </div>
             </div>
-            <button class="button is-primary" @click="login()">Sign in</button>
+            <button class="button is-primary" @click="login(userData)">Sign in</button>
           </form>
         </div>
       </div>
@@ -56,7 +58,8 @@ export default {
   }),
   methods: {
     // following this https://dev.to/ignisda/setting-up-user-authentication-with-nuxtjs-and-django-rest-framework-part-2-2dkm
-    async login(userData) {
+      async login(userData) {
+        alert(userData.email)
         try {
           await this.$auth.loginWith('local', {
             data: userData,
