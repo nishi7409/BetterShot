@@ -23,5 +23,9 @@ urlpatterns = [
     path('rest-auth/', include('rest_auth.urls')),
     path('rest-auth/registration/', include('rest_auth.registration.urls')),
     path('admin/', admin.site.urls),
+    path('urlShortener/', include('urlShortener.urls'))
     # path('', include('endpoints.urls')),
 ]
+
+# Currently on step 9
+# https://geekflare.com/build-url-shortener-app-in-django/
