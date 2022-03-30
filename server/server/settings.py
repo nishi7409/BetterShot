@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'endpoints',
     'accounts.apps.AccountsConfig',
     'djoser'
+    'urlShortener'
 ]
 
 MIDDLEWARE = [

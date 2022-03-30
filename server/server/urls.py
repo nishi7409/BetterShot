@@ -25,5 +25,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('accounts.urls')),
     path('', include('djoser.urls.authtoken')),
+    path('urlShortener/', include('urlShortener.urls'))
     # path('', include('endpoints.urls')),
 ]
+
+# Currently on step 9
+# https://geekflare.com/build-url-shortener-app-in-django/
