@@ -6,18 +6,6 @@
             <form class="box has-background-grey-light">
                 <h1 class="title"> Register </h1>
                 <div class="field">
-                    <label class="label">First Name</label>
-                    <div class="control">
-                    <input v-model="firstName" class="input" type="text" placeholder="John">
-                    </div>
-                </div>
-                <div class="field">
-                    <label class="label">Last Name</label>
-                    <div class="control">
-                    <input v-model="lastName" class="input" type="text" placeholder="Doe">
-                    </div>
-                </div>
-                <div class="field">
                     <label class="label">Email</label>
                     <div class="control">
                     <input v-model="userData.email" class="input" type="email" placeholder="e.g. john@doe.com">

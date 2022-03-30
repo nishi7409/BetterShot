@@ -8,19 +8,8 @@ from . import managers # we will write this file shortly
 class CustomUser(AbstractUser):
     username = None
     email = models.EmailField(_('email address'), unique=True)
-    bio = models.TextField()
-    gender = models.CharField(
-        max_length=140,
-        null=True,
-        choices=(
-            ('Male', 'Male'),
-            ('Female', 'Female'),
-            ('Other', 'Other')
-        )
-    )
-    birth_date = models.DateField(null=True, blank=True)
     pro = models.BooleanField(default=False)
-
+    
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
 

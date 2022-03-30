@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'endpoints',
     'accounts.apps.AccountsConfig',
-    'djoser'
+    'djoser',
     'urlShortener'
 ]
 
