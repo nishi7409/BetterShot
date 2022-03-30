@@ -14,9 +14,6 @@
     </template>
     <template #end>
       <div v-if="$auth.loggedIn">
-        <!-- <b-navbar-dropdown label="Account">
-          <b-navbar-item class="button is-danger" href="#">Log Out</b-navbar-item>
-        </b-navbar-dropdown> -->
         <b-navbar-item tag="div">
           <b-navbar-dropdown label="Account">
             <b-navbar-item href="#">Settings</b-navbar-item>
