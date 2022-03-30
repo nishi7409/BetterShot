@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'allauth',
     'allauth.account',
-    'endpoints'
+    'endpoints',
+    'urlShortener'
 ]
 
 MIDDLEWARE = [
