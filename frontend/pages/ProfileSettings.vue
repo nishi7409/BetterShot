@@ -78,9 +78,46 @@
 
 <script>
 export default {
-  data() {
-    return {
-      isActive: true
+  methods: {
+    change_username() {
+      this.$buefy.dialog.prompt({
+          message: `Enter New Username:`,
+          inputAttrs: {
+              maxlength: 100
+          },
+          trapFocus: true,
+          onConfirm: (value) => this.$buefy.toast.open(`Successfully changed username to: ${value}`)
+      })
+    },
+    change_name() {
+      this.$buefy.dialog.prompt({
+          message: `Enter New Name:`,
+          inputAttrs: {
+              maxlength: 100
+          },
+          trapFocus: true,
+          onConfirm: (value) => this.$buefy.toast.open(`Successfully changed name to: ${value}`)
+      })
+    },
+    change_email() {
+      this.$buefy.dialog.prompt({
+          message: `Enter New Email Address:`,
+          inputAttrs: {
+              maxlength: 100
+          },
+          trapFocus: true,
+          onConfirm: (value) => this.$buefy.toast.open(`Successfully changed email address to: ${value}`)
+      })
+    },
+    change_number() {
+      this.$buefy.dialog.prompt({
+          message: `Enter New Phone Number:`,
+          inputAttrs: {
+              maxlength: 100
+          },
+          trapFocus: true,
+          onConfirm: (value) => this.$buefy.toast.open(`Successfully changed phone number to: ${value}`)
+      })
     }
   }
 }
