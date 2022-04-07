@@ -9,15 +9,16 @@
       </b-navbar-item>
     </template>
     <template #start>
-      <b-navbar-item href="#"> Home </b-navbar-item>
-      <b-navbar-item href="#"> Public Media </b-navbar-item>
+      <!-- <b-navbar-item href="#"> Public Media </b-navbar-item> -->
     </template>
     <template #end>
       <div v-if="$auth.loggedIn">
         <b-navbar-item tag="div">
           <b-navbar-dropdown label="Account">
-            <b-navbar-item href="#">Settings</b-navbar-item>
-            <b-navbar-item href="/logout" @click="$auth.logout()">Log out</b-navbar-item>
+            <b-navbar-item href="/user/home">Dashboard</b-navbar-item>
+            <b-navbar-item href="/logout" @click="$auth.logout()"
+              >Log out</b-navbar-item
+            >
           </b-navbar-dropdown>
         </b-navbar-item>
       </div>
