@@ -33,7 +33,7 @@
         <div class="tile is-parent">
           <article class="tile is-child notification is-danger">
             <p class="title is-size-1 has-text-weight-bold">User Activity</p>
-            <p class="subtitle">Theoretically, there would be a graph here, but because we're utilizing Vue 3, Nuxt hasn't come out with the capability of integrating some of the older plugins into their <i>optimized</i> framework</p>
+            <p class="subtitle">Theoretically, there would be a graph here. A few of the plugins that we wish to incorporate still only support Vue 2; however, the developers of the plugins have been working hard on supporting Vue 3 instances as well! </p>
             <div class="content"></div>
           </article>
         </div>
