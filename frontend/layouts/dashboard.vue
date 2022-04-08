@@ -1,9 +1,15 @@
 <template>
   <div class="site">
-    <navbarHeader />
-    <leftSideBar id="sideBar" />
-    <Nuxt id="mainContent" />
-    <bottomFooter id="footer" />
+    <div id="header">
+      <navbarHeader />
+    </div>
+    <div id="content">
+      <leftSideBar id="sideBar" />
+      <Nuxt id="mainContent" />
+    </div>
+    <div id="footer">
+      <bottomFooter id="footer" />
+    </div>
   </div>
 </template>
 
@@ -29,25 +35,22 @@ export default {
 </script>
 
 <style>
-.site {
-    position: relative;
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
+#header,
+#footer,
+#content {
+  float: left;
+  width: 100vw;
+  min-height: 20px;
 }
 
 #sideBar {
+  float: left;
+  width: 7.6vw;
 }
 
 #mainContent {
-  flex: 1;
-  position: absolute;
-}
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  float: left;
+  width: 92vw;
 }
 </style>
 
