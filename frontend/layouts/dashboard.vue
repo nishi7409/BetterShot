@@ -7,22 +7,17 @@
       <leftSideBar id="sideBar" />
       <Nuxt id="mainContent" />
     </div>
-    <div id="footer">
-      <bottomFooter id="footer" />
-    </div>
   </div>
 </template>
 
 <script>
 import navbarHeader from '../components/Header.vue'
-import bottomFooter from '../components/Footer.vue'
 import leftSideBar from '../components/LeftSideBar.vue'
 
 export default {
   name: 'Layout',
   components: {
     navbarHeader,
-    bottomFooter,
     leftSideBar,
   },
   data() {
@@ -51,6 +46,9 @@ export default {
 #mainContent {
   float: left;
   width: 92vw;
+  background-color: #ecf0f5;
+  height: 100vh;
 }
+
 </style>
 
