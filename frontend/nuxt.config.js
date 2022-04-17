@@ -8,13 +8,18 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: "An open-source version of Streamable, Gyazo, Lightshot, and NVIDIA's GeForce Experience screen capturing tool",
+        content:
+          "An open-source version of Streamable, Gyazo, Lightshot, and NVIDIA's GeForce Experience screen capturing tool",
       },
       { title: 'title', content: 'BetterShot' },
       { url: 'url', content: 'https://bettershot.io/' },
-      { image: 'image', content: 'https://media.discordapp.net/attachments/930291717742153778/930291865524248647/Linkedin_cover.jpg?width=2303&height=699' },
+      {
+        image: 'image',
+        content:
+          'https://media.discordapp.net/attachments/930291717742153778/930291865524248647/Linkedin_cover.jpg?width=2303&height=699',
+      },
       { theme_color: 'theme-color', content: '#0ac483' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: './assets/favicon.ico' }],
   },
@@ -49,6 +54,19 @@ export default {
   },
 
   auth: {
+    cookie: {
+      prefix: 'auth.',
+      options: {
+        path: '/',
+      },
+    },
+    localStorage: {
+      prefix: 'auth.',
+    },
+    token: {
+      prefix: '_token',
+      global: true,
+    },
     strategies: {
       local: {
         endpoints: {
@@ -57,7 +75,7 @@ export default {
             method: 'post',
             propertyName: 'auth_token',
           },
-          logout: {url: 'token/logout/', method: 'post'},
+          logout: { url: 'token/logout/', method: 'post' },
           user: {
             url: 'accounts/data/',
             method: 'get',
@@ -69,6 +87,8 @@ export default {
       },
       redirect: {
         login: '/login',
+        logout: '/',
+        callback: '/login',
         home: '/',
       },
     },
