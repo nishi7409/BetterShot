@@ -46,6 +46,9 @@
         Nishant is an RPI junior currently majoring in computer science. He loves Chow Chows.
       </p>
       <p>
+        Email: srivan@rpi.edu
+      </p>
+      <p>
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/-nishants/">You can check his LinkedIn out here!</a>
       </p>
     </div>
@@ -61,6 +64,9 @@
       <p>
         Vincent is an RPI junior currently majoring in computer science. He is a cool guy.
       </p>
+      <p>
+        Email: chenv3@rpi.edu
+      </p>
     </div>
 
     <div class="box">
@@ -73,6 +79,9 @@
       </h1>
       <p>
         Maxwell is an RPI junior currently majoring in computer science. He is the captain of the RPI Breakdance Club and juggles.
+      </p>
+      <p>
+        Email: tangm2@rpi.edu
       </p>
     </div>
 
