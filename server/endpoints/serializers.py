@@ -7,6 +7,5 @@ class URLSerializer(serializers.ModelSerializer):
     class Meta:
         model = Shortener
         fields = [ 
-            "short_url",
             "long_url"
         ]
