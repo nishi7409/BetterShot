@@ -6,6 +6,7 @@ from django.shortcuts import render # We will use it later
 from django.http import HttpResponse, Http404, HttpResponseRedirect
 
 
+
 # Model
 from .models import Shortener
 
