@@ -2,10 +2,11 @@
 <!-- <p align="center">
     <img src="https://media.discordapp.net/attachments/930291717742153778/930291865524248647/Linkedin_cover.jpg?width=2303&height=699">
 </p> -->
-
 [![name](https://media.discordapp.net/attachments/930291717742153778/930291865524248647/Linkedin_cover.jpg?width=2303&height=699)](https://bettershot.io/)
 
 [![CircleCI](https://circleci.com/gh/nishi7409/BetterShot/tree/master.svg?style=svg)](https://circleci.com/gh/nishi7409/BetterShot/tree/master) ![Vercel](https://vercelbadge.vercel.app/api/nishi7409/bettershot)
+
+# PROJECT HAS BEEN PUT ON HOLD
 
 ## Introduction
 ### Vision
